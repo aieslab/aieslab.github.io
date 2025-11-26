@@ -2,29 +2,29 @@
 layout: about
 title: home
 permalink: /
-subtitle: Autonomous and Intelligent Energy Systems Lab
+subtitle:
 
 profile:
   align: right
-  image:
+  image: placeholder.jpg
   image_circular: false
   more_info:
 
 announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+  enabled: false
 
 latest_posts:
   enabled: false
 
 selected_papers: false
-social: true
+social: false
 ---
 
 ## Welcome to the Autonomous and Intelligent Energy Systems Lab (AIES)
 
 The Autonomous and Intelligent Energy Systems Lab studies how advanced control methods and AI can improve energy efficiency and operational performance in real systems. Our work focuses on buildings, HVAC systems, industrial cooling, and data centres. We develop and evaluate control approaches such as reinforcement learning, model predictive control, and physics-based modelling to understand how these systems behave and how they can be operated more effectively.
+
+We address a persistent gap in the field: many strong research ideas for building and energy-system optimisation never make it into real operations because they are difficult to integrate, validate, or maintain in practice.
 
 **Join us:** If you are interested in research opportunities at AIES, please visit our [Join](/join/) page or [contact us](#contact) directly.
 
@@ -46,28 +46,6 @@ Semantic models, structured data representations, and AI tools that make energy 
 ### Data Centres and Grid-Interactive Operation
 
 Control and optimisation of data-centre cooling and related energy use, with interest in how these facilities can interact with and support future low-carbon grids.
-
----
-
-## Current Work
-
-- Autonomous control strategies for HVAC and industrial cooling
-- RL/MPC methods for complex building and energy systems
-- Semantic models and interpretable data structures for energy operations
-- Digital-twin-based evaluation of control policies
-- Energy-efficient operation of data centres
-
----
-
-## People
-
-**Founding Researcher**
-
-**Pamekitti Puktalae**
-MSc Smart Buildings and Digital Engineering, University College London
-AI & Controls Engineer, AltoTech Global
-
-Interests include autonomous control, RL/MPC, building systems, industrial cooling, and practical deployment of AI for energy operations.
 
 ---
 

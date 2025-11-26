@@ -3,7 +3,7 @@ layout: page
 permalink: /about/
 title: about
 description: Research at the Autonomous and Intelligent Energy Systems Lab
-nav: true
+nav: false
 nav_order: 1
 ---
 
