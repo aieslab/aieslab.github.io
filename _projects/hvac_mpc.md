@@ -14,16 +14,19 @@ We develop advanced control systems for HVAC and industrial cooling applications
 ## What We're Working On
 
 ### Model Predictive Control for Chilled Water Plants
+
 - Optimization-based control strategies for multi-chiller systems
 - Energy efficiency improvements while maintaining comfort constraints
 - Real-time implementation and testing on actual cooling plants
 
 ### Reinforcement Learning for HVAC Systems
+
 - Data-driven control policies that learn from operational data
 - Safe exploration and deployment in live systems
 - Integration with existing building management systems
 
 ### Cooling Tower Optimization
+
 - Advanced control strategies for cooling tower operations
 - Weather-adaptive control and predictive optimization
 - Energy and water consumption reduction

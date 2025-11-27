@@ -52,6 +52,7 @@ subject to thermal dynamics and comfort constraints.
 ## Code
 
 Implementation available (contact for access):
+
 - Python-based MPC controller
 - Building simulation environment
 - Integration with common BMS protocols

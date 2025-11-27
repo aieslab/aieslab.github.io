@@ -14,6 +14,7 @@ Reinforcement learning approach to optimize cooling system operation in data cen
 ### Algorithm: Soft Actor-Critic (SAC)
 
 We use SAC with safety constraints for continuous control of:
+
 - CRAC unit setpoints
 - Free cooling valve positions
 - Server workload distribution
@@ -43,11 +44,11 @@ We use SAC with safety constraints for continuous control of:
 
 ### Performance Comparison
 
-| Metric | Baseline | RL Controller | Improvement |
-|--------|----------|---------------|-------------|
-| PUE | 1.45 | 1.28 | -11.7% |
-| Cooling Energy (kWh) | 1000 | 850 | -15% |
-| Max Rack Temp (°C) | 28.5 | 26.2 | -8.1% |
+| Metric               | Baseline | RL Controller | Improvement |
+| -------------------- | -------- | ------------- | ----------- |
+| PUE                  | 1.45     | 1.28          | -11.7%      |
+| Cooling Energy (kWh) | 1000     | 850           | -15%        |
+| Max Rack Temp (°C)   | 28.5     | 26.2          | -8.1%       |
 
 ## Technology Stack
 

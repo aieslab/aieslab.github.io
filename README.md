@@ -25,6 +25,7 @@ The site is automatically deployed to GitHub Pages when changes are pushed to th
 ## Technology
 
 This site is built with:
+
 - [Jekyll](https://jekyllrb.com/)
 - [al-folio theme](https://github.com/alshedivat/al-folio)
 - Hosted on [GitHub Pages](https://pages.github.com/)
