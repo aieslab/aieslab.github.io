@@ -4,23 +4,65 @@ permalink: /people/
 title: People
 description: Team members and collaborators
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
-<div class="row mt-3">
-  <div class="col-md-4">
+<div class="row mt-3 g-4">
+  <div class="col-md-6 col-lg-3">
     <div class="card h-100">
+      <img src="{{ '/assets/img/people/pamekitti.jpeg' | relative_url }}" class="card-img-top" alt="Pamekitti Puktalae">
       <div class="card-body">
-        <h5 class="card-title">Pamekitti Puktalae</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Principal Investigator</h6>
-        <p class="card-text">
-          Research interests include autonomous control, reinforcement learning for building systems, and physics-informed machine learning for energy applications.
+        <h5 class="card-title mb-1">Pamekitti Puktalae</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Founding Researcher</h6>
+        <h6 class="card-subtitle mb-3 text-muted">Member of Technical Staff, AltoTech</h6>
+        <p class="mb-0 fs-5">
+          <a href="mailto:pamekitti.puktalae.25@ucl.ac.uk" class="me-2"><i class="fas fa-envelope"></i></a>
+          <a href="https://linkedin.com/in/pamekitti"><i class="fab fa-linkedin"></i></a>
         </p>
-        <p class="card-text">
-          <small>
-            <i class="fas fa-envelope"></i> pamekitti.puktalae.25@ucl.ac.uk<br>
-            <i class="fab fa-github"></i> <a href="https://github.com/pamekitti">github.com/pamekitti</a>
-          </small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-3">
+    <div class="card h-100">
+      <img src="{{ '/assets/img/people/assawayut.jpeg' | relative_url }}" class="card-img-top" alt="Assawayut Khunmaturod">
+      <div class="card-body">
+        <h5 class="card-title mb-1">Assawayut Khunmaturod</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Founding Researcher</h6>
+        <h6 class="card-subtitle mb-3 text-muted">Senior Control Engineer, AltoTech</h6>
+        <p class="mb-0 fs-5">
+          <a href="mailto:assawayut.k@altotech.ai" class="me-2"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/assawayut-khunmaturod/"><i class="fab fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-3">
+    <div class="card h-100">
+      <img src="{{ '/assets/img/people/andaman.jpeg' | relative_url }}" class="card-img-top" alt="Andaman Lekawat">
+      <div class="card-body">
+        <h5 class="card-title mb-1">Andaman Lekawat</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Founding Researcher</h6>
+        <h6 class="card-subtitle mb-3 text-muted">Tech Lead, AltoTech</h6>
+        <p class="mb-0 fs-5">
+          <a href="mailto:andaman.l@altotech.ai" class="me-2"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/andaman-l/"><i class="fab fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-3">
+    <div class="card h-100">
+      <img src="{{ '/assets/img/people/warodom.jpeg' | relative_url }}" class="card-img-top" alt="Warodom Khamphanchai">
+      <div class="card-body">
+        <h5 class="card-title mb-1">Warodom Khamphanchai, PhD</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Industry Advisor</h6>
+        <h6 class="card-subtitle mb-3 text-muted">CEO, AltoTech</h6>
+        <p class="mb-0 fs-5">
+          <a href="mailto:kwarodom@altotech.ai " class="me-2"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/kwarodom/?originalSubdomain=th"><i class="fab fa-linkedin"></i></a>
         </p>
       </div>
     </div>
@@ -28,19 +70,6 @@ nav_order: 3
 </div>
 
 <div class="row mt-5">
-  <div class="col-12">
-    <h3>Collaborators</h3>
-    <p>We collaborate with researchers and industry partners across building automation, data center operations, and energy systems.</p>
-  </div>
-</div>
-
-<div class="row mt-4 mb-4 justify-content-center align-items-center">
-  <div class="col-6 col-md-3 text-center mb-3">
-    <img src="{{ '/assets/img/collaborators/altotech.png' | relative_url }}" alt="Altotech" class="img-fluid" style="max-height: 80px;">
-  </div>
-</div>
-
-<div class="row mt-3">
   <div class="col-12">
     <h3>Join Us</h3>
     <p>We are always looking for motivated students and researchers interested in autonomous control and AI for energy systems. Visit our <a href="/join/">Join</a> page to learn more about opportunities.</p>

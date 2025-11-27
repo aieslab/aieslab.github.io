@@ -46,18 +46,20 @@ social: false
         <p class="card-text">
           Control and optimization of chilled-water plants, cooling towers, and HVAC systems, with an emphasis on hybrid and physics-guided approaches for efficient operation.
         </p>
+        <a href="/join/" class="btn btn-sm btn-primary">Work with us</a>
       </div>
     </div>
   </div>
 
   <div class="col">
     <div class="card h-100">
-      <img src="{{ '/assets/img/research/semantic.png' | relative_url }}" class="card-img-top" alt="Knowledge Graphs and LLMs">
+      <img src="{{ '/assets/img/research/semantic.webp' | relative_url }}" class="card-img-top" alt="Knowledge Graphs and LLMs">
       <div class="card-body">
-        <h5 class="card-title">Knowledge Graphs and LLMs for Buildings</h5>
+        <h5 class="card-title">Ontology, Digital Twins and LLMs for Buildings</h5>
         <p class="card-text">
-          Combining knowledge graphs with large language models to enable semantic interpretation of building systems. Supports digital twin integration, automated control point discovery, and portable control strategies across buildings.
+          Using knowledge graphs and LLMs for semantic interpretation of building systems, enabling digital twin integration and automated control deployment.
         </p>
+        <a href="/join/" class="btn btn-sm btn-primary">Work with us</a>
       </div>
     </div>
   </div>
@@ -66,10 +68,11 @@ social: false
     <div class="card h-100">
       <img src="{{ '/assets/img/research/datacenter.png' | relative_url }}" class="card-img-top" alt="Data Centers">
       <div class="card-body">
-        <h5 class="card-title">Sustainable Data Centre Control and Grid-Interactive Operations</h5>
+        <h5 class="card-title">Sustainable Data Centre Control and Grid Flexibility</h5>
         <p class="card-text">
           Control and optimization of data-center cooling and related energy use, with interest in how these facilities can interact with and support future low-carbon grids.
         </p>
+        <a href="/join/" class="btn btn-sm btn-primary">Work with us</a>
       </div>
     </div>
   </div>
@@ -80,8 +83,23 @@ social: false
 ## Collaborators
 
 <div class="row mt-4 mb-4 justify-content-center align-items-center">
-  <div class="col-6 col-md-3 text-center mb-3">
+  <div class="col-6 col-md-2 text-center mb-3">
     <img src="{{ '/assets/img/collaborators/altotech.png' | relative_url }}" alt="Altotech" class="img-fluid" style="max-height: 80px;">
+  </div>
+  <div class="col-6 col-md-2 text-center mb-3">
+    <img src="{{ '/assets/img/collaborators/bseer.jpeg' | relative_url }}" alt="BSEER" class="img-fluid" style="max-height: 80px;">
+  </div>
+  <div class="col-6 col-md-2 text-center mb-3">
+    <img src="{{ '/assets/img/collaborators/iede.jpg' | relative_url }}" alt="IEDE" class="img-fluid" style="max-height: 80px;">
+  </div>
+  <div class="col-6 col-md-2 text-center mb-3">
+    <img src="{{ '/assets/img/collaborators/depa.png' | relative_url }}" alt="DEPA" class="img-fluid" style="max-height: 80px;">
+  </div>
+  <div class="col-6 col-md-2 text-center mb-3">
+    <img src="{{ '/assets/img/collaborators/hap.png' | relative_url }}" alt="HAP" class="img-fluid" style="max-height: 80px;">
+  </div>
+  <div class="col-6 col-md-2 text-center mb-3">
+    <img src="{{ '/assets/img/collaborators/jwm.png' | relative_url }}" alt="JWM" class="img-fluid" style="max-height: 80px;">
   </div>
 </div>
 
@@ -90,4 +108,4 @@ social: false
 ## Contact
 
 **Email**: pamekitti.puktalae.25@ucl.ac.uk
-**GitHub**: [github.com/pamekitti](https://github.com/pamekitti)
+**GitHub**: [github.com/aieslab](https://github.com/aieslab)

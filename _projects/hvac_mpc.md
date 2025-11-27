@@ -1,22 +1,48 @@
 ---
 layout: page
-title: HVAC Model Predictive Control
-description: Advanced MPC for building HVAC systems with physics-informed constraints
-img: assets/img/projects/hvac-mpc.png
+title: HVAC & Industrial Cooling
+description: Model predictive control and reinforcement learning for chilled-water plants, cooling towers, and building HVAC systems
+img: assets/img/topics/hvac-research.png
 importance: 1
 category: active
-tags: [MPC, HVAC, Buildings, Energy Efficiency]
 ---
 
-Development of model predictive control strategies for commercial building HVAC systems. This project focuses on hybrid approaches that combine physics-based thermal models with data-driven learning to optimize energy consumption while maintaining occupant comfort.
+## Overview
 
-## Key Features
+We develop advanced control systems for HVAC and industrial cooling applications using model predictive control (MPC) and reinforcement learning (RL). Our work focuses on real-world deployments in buildings, data centers, and industrial facilities.
 
-- Real-time optimization with 15-minute prediction horizons
-- Integration with building management systems (BMS)
-- 20-30% energy savings in pilot deployments
-- Robust constraint handling for comfort requirements
+## What We're Working On
 
-## Status
+### Model Predictive Control for Chilled Water Plants
+- Optimization-based control strategies for multi-chiller systems
+- Energy efficiency improvements while maintaining comfort constraints
+- Real-time implementation and testing on actual cooling plants
 
-Active field deployment at two commercial buildings
+### Reinforcement Learning for HVAC Systems
+- Data-driven control policies that learn from operational data
+- Safe exploration and deployment in live systems
+- Integration with existing building management systems
+
+### Cooling Tower Optimization
+- Advanced control strategies for cooling tower operations
+- Weather-adaptive control and predictive optimization
+- Energy and water consumption reduction
+
+## Real-World Impact
+
+Our control systems run on actual equipment in operational facilities, delivering measurable energy savings and improved system performance. We work closely with industry partners to ensure our research translates into practical solutions.
+
+## Technologies & Methods
+
+- **Control**: MPC, adaptive control, cascaded control systems
+- **Machine Learning**: Reinforcement learning, neural networks, system identification
+- **Optimization**: Convex optimization, mixed-integer programming
+- **Tools**: Python, CVXPY, PyTorch, industrial SCADA systems
+
+## Collaborations
+
+We collaborate with industrial partners in the UK, EU, and Southeast Asia, providing access to real operational data and deployment opportunities for our students and researchers.
+
+## Get Involved
+
+If you're interested in working on this project, check out our [Join Us](/join/) page for available positions and how to apply.
