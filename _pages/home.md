@@ -84,22 +84,22 @@ social: false
 
 <div class="row mt-4 mb-4 justify-content-center align-items-center">
   <div class="col-6 col-md-2 text-center mb-3">
-    <img src="{{ '/assets/img/collaborators/altotech.png' | relative_url }}" alt="Altotech" class="img-fluid" style="max-height: 80px;">
-  </div>
-  <div class="col-6 col-md-2 text-center mb-3">
     <img src="{{ '/assets/img/collaborators/bseer.jpeg' | relative_url }}" alt="BSEER" class="img-fluid" style="max-height: 80px;">
   </div>
   <div class="col-6 col-md-2 text-center mb-3">
     <img src="{{ '/assets/img/collaborators/iede.jpg' | relative_url }}" alt="IEDE" class="img-fluid" style="max-height: 80px;">
   </div>
   <div class="col-6 col-md-2 text-center mb-3">
+    <img src="{{ '/assets/img/collaborators/altotech.png' | relative_url }}" alt="Altotech" class="img-fluid" style="max-height: 80px;">
+  </div>
+  <div class="col-6 col-md-2 text-center mb-3">
     <img src="{{ '/assets/img/collaborators/depa.png' | relative_url }}" alt="DEPA" class="img-fluid" style="max-height: 80px;">
   </div>
   <div class="col-6 col-md-2 text-center mb-3">
-    <img src="{{ '/assets/img/collaborators/hap.png' | relative_url }}" alt="HAP" class="img-fluid" style="max-height: 80px;">
+    <img src="{{ '/assets/img/collaborators/jwm.png' | relative_url }}" alt="JWM" class="img-fluid" style="max-height: 80px;">
   </div>
   <div class="col-6 col-md-2 text-center mb-3">
-    <img src="{{ '/assets/img/collaborators/jwm.png' | relative_url }}" alt="JWM" class="img-fluid" style="max-height: 80px;">
+    <img src="{{ '/assets/img/collaborators/hap.png' | relative_url }}" alt="HAP" class="img-fluid" style="max-height: 80px;">
   </div>
 </div>
 

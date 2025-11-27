@@ -7,8 +7,8 @@ nav: true
 nav_order: 2
 ---
 
-<div class="row mt-3 g-4">
-  <div class="col-md-6 col-lg-3">
+<div class="row mt-3 g-5">
+  <div class="col-6 col-lg-3 mb-4">
     <div class="card h-100">
       <img src="{{ '/assets/img/people/pamekitti.jpeg' | relative_url }}" class="card-img-top" alt="Pamekitti Puktalae">
       <div class="card-body">
@@ -23,7 +23,7 @@ nav_order: 2
     </div>
   </div>
 
-  <div class="col-md-6 col-lg-3">
+  <div class="col-6 col-lg-3 mb-4">
     <div class="card h-100">
       <img src="{{ '/assets/img/people/assawayut.jpeg' | relative_url }}" class="card-img-top" alt="Assawayut Khunmaturod">
       <div class="card-body">
@@ -38,7 +38,7 @@ nav_order: 2
     </div>
   </div>
 
-  <div class="col-md-6 col-lg-3">
+  <div class="col-6 col-lg-3 mb-4">
     <div class="card h-100">
       <img src="{{ '/assets/img/people/andaman.jpeg' | relative_url }}" class="card-img-top" alt="Andaman Lekawat">
       <div class="card-body">
@@ -53,7 +53,7 @@ nav_order: 2
     </div>
   </div>
 
-  <div class="col-md-6 col-lg-3">
+  <div class="col-6 col-lg-3 mb-4">
     <div class="card h-100">
       <img src="{{ '/assets/img/people/warodom.jpeg' | relative_url }}" class="card-img-top" alt="Warodom Khamphanchai">
       <div class="card-body">
@@ -63,6 +63,20 @@ nav_order: 2
         <p class="mb-0 fs-5">
           <a href="mailto:kwarodom@altotech.ai " class="me-2"><i class="fas fa-envelope"></i></a>
           <a href="https://www.linkedin.com/in/kwarodom/?originalSubdomain=th"><i class="fab fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6 col-lg-3 mb-4">
+    <div class="card h-100">
+      <img src="{{ '/assets/img/people/thatchathon.png' | relative_url }}" class="card-img-top" alt="Thatchathon Leelawat">
+      <div class="card-body">
+        <h5 class="card-title mb-1">Thatchathon Leelawat</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Researcher</h6>
+        <p class="mb-0 fs-5">
+          <a href="mailto:Thatchathon.lee@gmail.com" class="me-2"><i class="fas fa-envelope"></i></a>
+          <a href="[linkedin-url]"><i class="fab fa-linkedin"></i></a>
         </p>
       </div>
     </div>
