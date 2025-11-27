@@ -4,6 +4,9 @@ title: Launching the AIES Lab
 date: 2024-11-01 10:00:00
 description: Introducing the Autonomous and Intelligent Energy Systems Lab
 featured: true
+toc:
+  beginning: false
+  sidebar: false
 ---
 
 We're excited to announce the launch of the Autonomous and Intelligent Energy Systems Lab! Our mission is to develop advanced control and AI methods that make energy systems more efficient, sustainable, and reliable.
