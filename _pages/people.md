@@ -76,7 +76,6 @@ nav_order: 2
         <h6 class="card-subtitle mb-3 text-muted">Researcher</h6>
         <p class="mb-0 fs-5">
           <a href="mailto:Thatchathon.lee@gmail.com" class="me-2"><i class="fas fa-envelope"></i></a>
-          <a href="[linkedin-url]"><i class="fab fa-linkedin"></i></a>
         </p>
       </div>
     </div>
