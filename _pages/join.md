@@ -1,84 +1,71 @@
 ---
 layout: page
+title: Join us
 permalink: /join/
-title: join
-description: Join the Autonomous and Intelligent Energy Systems Lab
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
-## Why Join
+We develop control and AI methods for real energy systems. Our research is designed for deployment in actual buildings, HVAC systems, and data centers—not just publication.
 
-The Autonomous and Intelligent Energy Systems Lab offers opportunities to work on control and AI methods that address real challenges in energy systems. Research conducted here is designed to be deployable in real buildings, HVAC systems, and data centres, not just publishable in academic settings.
+## Research Opportunities
 
-Working in the lab means:
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+  <div class="col">
+    <div class="card h-100 hoverable">
+      <img src="{{ '/assets/img/topics/hvac-research.png' | relative_url }}" class="card-img-top" alt="HVAC Control">
+      <div class="card-body">
+        <h5 class="card-title">HVAC & Industrial Cooling</h5>
+        <p class="card-text">Model predictive control and reinforcement learning for chilled-water plants, cooling towers, and building HVAC systems.</p>
+        <a href="/projects/hvac_mpc/" class="btn btn-sm btn-primary">Learn more</a>
+      </div>
+    </div>
+  </div>
 
-- Developing methods that are tested on real equipment and operational data
-- Collaborating with industry partners to understand practical constraints
-- Producing research that contributes to more efficient and sustainable energy systems
-- Gaining experience in both rigorous research and practical deployment
+  <div class="col">
+    <div class="card h-100 hoverable">
+      <img src="https://via.placeholder.com/400x200/0E6EE3/ffffff?text=Data+Center" class="card-img-top" alt="Data Center">
+      <div class="card-body">
+        <h5 class="card-title">Data Center Optimization</h5>
+        <p class="card-text">RL-based control for cooling and power management with grid-interactive operation and low-carbon energy integration.</p>
+        <a href="/projects/datacenter_cooling/" class="btn btn-sm btn-primary">Learn more</a>
+      </div>
+    </div>
+  </div>
 
-## Opportunities
+  <div class="col">
+    <div class="card h-100 hoverable">
+      <img src="https://via.placeholder.com/400x200/0E6EE3/ffffff?text=Knowledge+Graphs+%26+LLM" class="card-img-top" alt="Knowledge Graphs and LLMs">
+      <div class="card-body">
+        <h5 class="card-title">Knowledge Graphs and LLMs for Buildings</h5>
+        <p class="card-text">Using knowledge graphs and large language models for semantic interpretation of building systems, digital twin integration, and automated control deployment.</p>
+        <a href="/projects/semantic_modeling/" class="btn btn-sm btn-primary">Learn more</a>
+      </div>
+    </div>
+  </div>
 
-The lab welcomes applications from motivated students and researchers interested in autonomous control, AI, and energy systems.
+  <div class="col">
+    <div class="card h-100 hoverable">
+      <img src="https://via.placeholder.com/400x200/0E6EE3/ffffff?text=Real+System" class="card-img-top" alt="Real Systems">
+      <div class="card-body">
+        <h5 class="card-title">Real-System Validation</h5>
+        <p class="card-text">Methods for deploying and validating advanced control in operational environments with robustness and safety constraints.</p>
+        <a href="#apply" class="btn btn-sm btn-primary">Apply</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-**Research Internships**
+## How to Apply {#apply}
 
-Short-term research projects (3-6 months) for undergraduate and graduate students. Internships focus on specific technical problems and may involve experimental work with real equipment or industry datasets.
+Email us with:
+1. Brief introduction and research interests
+2. Which research area you're interested in
+3. Your availability and duration
+4. CV with relevant experience
 
-**Research Attachments**
+**What we look for:** Background in control/ML/energy systems, Python programming, interest in practical deployment.
 
-Longer-term collaborations (6-12 months) for graduate students or early-career researchers. Attachments involve deeper engagement with ongoing research and may lead to publications or continued collaboration.
+**Contact:** pamekitti.puktalae.25@ucl.ac.uk
 
-**Collaborative Research**
-
-Opportunities for visiting researchers, PhD students, or postdoctoral researchers to work on joint projects aligned with the lab's research focus.
-
-## Research Topics
-
-Current and planned research topics include:
-
-**Autonomous HVAC and Industrial Cooling Control**
-
-Reinforcement learning and model predictive control for chilled-water plants, cooling towers, and building HVAC systems. Focus on hybrid methods that combine physics-based and data-driven models.
-
-**Data Centre Energy Optimisation**
-
-Control methods for data-centre cooling and power management, with interest in grid-interactive operation and integration with low-carbon energy sources.
-
-**Semantic Modelling for Energy Systems**
-
-Development of structured data representations, ontologies, and digital-twin frameworks that enable autonomous control and improve system interpretability.
-
-**Real-System Validation**
-
-Methods for deploying and validating advanced control in real operational environments, including robustness analysis, safety constraints, and operator interpretability.
-
-## How to Apply
-
-If you are interested in joining the lab, please send an email with the following:
-
-1. **Brief introduction** — Your background, current position, and research interests
-2. **Why this lab** — What specifically interests you about the lab's work
-3. **Proposed focus** — Which research area or topic you would like to work on
-4. **Duration and timeline** — When you would be available and for how long
-5. **CV** — Including relevant coursework, projects, or publications
-
-Applications are reviewed on a rolling basis. We aim to respond within two weeks.
-
-Strong applicants typically have:
-
-- Background in control systems, machine learning, or building/energy systems
-- Programming experience (Python preferred)
-- Interest in practical deployment, not just theoretical research
-- Ability to work independently and communicate technical ideas clearly
-
----
-
-## Contact
-
-**Pamekitti Puktalae**
-
-Email: pamekitti.puktalae.25@ucl.ac.uk
-
-GitHub: [github.com/pamekitti](https://github.com/pamekitti)
+Applications reviewed on a rolling basis. We respond within two weeks.

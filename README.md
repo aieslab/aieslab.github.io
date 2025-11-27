@@ -4,7 +4,7 @@ Website for the Autonomous and Intelligent Energy Systems Lab.
 
 ## About
 
-The Autonomous and Intelligent Energy Systems Lab studies how advanced control methods and AI can improve energy efficiency and operational performance in real systems. Our work focuses on buildings, HVAC systems, industrial cooling, and data centres.
+The Autonomous and Intelligent Energy Systems Lab studies how advanced control methods and AI can improve energy efficiency and operational performance in real systems. Our work focuses on buildings, HVAC systems, industrial cooling, and data centers.
 
 ## Development
 
