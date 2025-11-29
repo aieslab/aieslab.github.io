@@ -18,6 +18,17 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.keywords %}
+    <div class="project-keywords">
+      <h3>Keywords</h3>
+      <div class="keywords-list">
+        {% for keyword in page.keywords %}
+          <span class="keyword-tag">{{ keyword }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">

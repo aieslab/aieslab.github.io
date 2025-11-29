@@ -1,0 +1,64 @@
+<!-- Announcement Bar -->
+<div class="announcement-bar">
+  <div class="container">
+    <a href="{{ '/join/' | relative_url }}" class="announcement-link">
+      <span class="announcement-text">🔬 Now accepting research collaborators | 🚀 See open projects</span>
+      <span class="announcement-arrow">→</span>
+    </a>
+  </div>
+</div>
+
+<style>
+.announcement-bar {
+  background-color: rgba(14, 110, 227, 0.08);
+  border-bottom: 1px solid rgba(14, 110, 227, 0.15);
+  padding: 8px 0;
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+}
+
+.announcement-link {
+  color: var(--global-theme-color, #0e6ee3) !important;
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  transition: opacity 0.2s ease;
+}
+
+.announcement-link:hover {
+  opacity: 0.7;
+}
+
+.announcement-text {
+  font-weight: 500;
+}
+
+.announcement-arrow {
+  transition: transform 0.2s ease;
+  font-size: 1rem;
+}
+
+.announcement-link:hover .announcement-arrow {
+  transform: translateX(3px);
+}
+
+/* Dark mode support */
+html[data-theme='dark'] .announcement-bar {
+  background-color: rgba(14, 110, 227, 0.12);
+  border-bottom-color: rgba(14, 110, 227, 0.2);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .announcement-bar {
+    padding: 7px 0;
+  }
+
+  .announcement-text {
+    font-size: 0.85rem;
+  }
+}
+</style>

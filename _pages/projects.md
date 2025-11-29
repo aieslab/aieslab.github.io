@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Research projects and ongoing work at AIES Lab
 nav: true
-nav_order: 3
+nav_order: 1
 display_categories: [active]
 horizontal: false
 ---
@@ -14,7 +14,6 @@ horizontal: false
 {% if page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <h2 class="category">{{ category | capitalize }} Projects</h2>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
