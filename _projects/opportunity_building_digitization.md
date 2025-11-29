@@ -14,33 +14,34 @@ keywords:
 
 ## What We're Doing
 
-Every building deployment requires creating metadata—mapping sensors to equipment, tagging data points, defining relationships. We do this manually and it takes weeks. We want LLMs to automate it.
+Every time we deploy at a new building, we spend 2-3 weeks manually mapping sensors to equipment, tagging data points, and building metadata. It's tedious and error-prone. Most of the information exists in BIM files, equipment schedules, and submittal documents, but in formats that are impossible to parse automatically.
 
-The pipeline would:
-- Parse BIM files (IFC) and equipment schedules
-- Extract entities and relationships from unstructured documents
-- Map IoT sensors to physical equipment
-- Build structured knowledge graphs
-- Validate with human review
+We want to use LLMs to automate this:
+- Parse IFC files and equipment schedules
+- Extract sensor mappings from submittal documents
+- Match IoT point names to physical equipment
+- Build knowledge graphs that our control systems can use
+- Flag uncertainties for human review
 
-## Current State
+## Current Reality
 
-Manual process for each site. We have templates and conventions, but no automation. Documents vary wildly in format and quality.
+Everything's manual. Each site has its own documentation format. Some have clean BIM models, some have PDFs of hand-drawn schematics from 1997. The person who installed the sensors never documented what connects to what.
 
-## What You'd Work On
+## What You'd Actually Do
 
-- Develop LLM prompting strategies for building information extraction
-- Build pipelines that process BIM, PDFs, and spreadsheets
-- Design knowledge graph schemas for building systems
-- Create validation workflows with human-in-the-loop correction
-- Test on real building documentation
+- Build LLM pipelines that can handle messy building docs
+- Parse BIM files, PDFs, and Excel sheets with wildly inconsistent formats
+- Design knowledge graph schemas that work across building types
+- Create validation tools so humans can catch mistakes efficiently
+- Test on actual building documentation from our deployment sites
 
-## Open Questions
+## Real Problems
 
-- How do we handle the inconsistency in building documentation formats?
-- What extraction accuracy is needed before human review becomes manageable?
-- Can we learn transferable models across building types?
+- Documentation quality varies from excellent BIM models to barely-legible PDFs
+- Equipment naming is inconsistent (is "AHU-01" the same as "AHU 1" or "Air Handler Unit 01"?)
+- Critical information often lives in technician notes, not official docs
+- Some sites have no documentation at all
 
-## Who We're Looking For
+## Who We Need
 
-Someone with NLP and information extraction experience. Familiarity with knowledge graphs (Neo4j, RDF) is valuable. You don't need BIM expertise—we'll provide building context.
+Someone who's comfortable working with messy, inconsistent data. NLP experience helps. Knowledge graphs (Neo4j, RDF) are useful. You don't need to know buildings, but you need to be okay with domain complexity where there's no single right answer.

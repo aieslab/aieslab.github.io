@@ -14,7 +14,7 @@ keywords:
 
 ## What We're Doing
 
-We're building a control system that optimizes the entire air-side of large commercial buildings—AHUs, VAV boxes, fans, dampers—using thermal comfort (PMV) as the primary feedback signal instead of just temperature.
+We're building a control system that optimizes the entire air-side of large commercial buildings (AHUs, VAV boxes, fans, dampers) using thermal comfort (PMV) as the primary feedback signal instead of just temperature.
 
 The controller coordinates:
 - Supply air temperature reset based on zone demands

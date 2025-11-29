@@ -14,35 +14,36 @@ keywords:
 
 ## What We're Doing
 
-General-purpose LLMs struggle with HVAC questions. Ask GPT-4 about chiller surge or VAV minimum airflow and you'll get confident but often wrong answers. We're building domain-specialized models that actually understand building systems.
+Off-the-shelf LLMs don't understand HVAC. Ask about chiller surge, VAV minimum airflow, or AHU economizer faults and you'll get generic answers that sound right but miss the specifics. We're fine-tuning open-source models to actually know this stuff.
 
-We've created:
-- 12,000+ training examples covering equipment, controls, faults, and operations
-- 800-question benchmark spanning diagnostics, control logic, and fault interpretation
-- Expert-validated evaluation criteria
+We've built:
+- 12,000+ training examples from real equipment manuals, fault logs, and control sequences
+- 800-question benchmark covering diagnostics, control logic, and fault interpretation
+- Evaluation framework validated against HVAC engineers
 
-## Current State
+## Infrastructure
 
-Initial fine-tuning experiments show clear improvement over base models on our benchmark. We want to expand the dataset, refine the evaluation methodology, and release everything open-source.
+We're an official NVIDIA partner with H100 GPU access for this project. You'll work on state-of-the-art open-source models like Qwen 3 and GLM 4.6, not closed APIs. Everything gets released open-source.
 
-## What You'd Work On
+## What You'd Actually Do
 
-- Expand and clean the training dataset
-- Design better evaluation metrics for open-ended HVAC responses
-- Run fine-tuning experiments (LoRA, QLoRA, full fine-tuning)
-- Prepare datasets and models for public release
-- Write documentation and papers
+- Clean and expand the training dataset (real building data, not synthetic)
+- Run fine-tuning experiments on H100s (LoRA, full fine-tuning, different architectures)
+- Build better evaluation metrics for technical responses where multiple answers are valid
+- Benchmark against closed models to prove open-source can compete
+- Write docs and papers for public release
 
 ## Open Questions
 
-- What training data composition yields the best domain transfer?
-- How do we evaluate "correctness" for diagnostic responses where multiple answers might be valid?
-- What model size works best for edge deployment in buildings?
+- Which model architecture works best for technical reasoning about physical systems?
+- How do we balance general reasoning ability with domain-specific knowledge?
+- Can we get deployment-ready models small enough to run locally on building controllers?
+- What's the minimum dataset size for reliable domain transfer?
 
-## Who We're Looking For
+## Who We Need
 
-Someone with NLP/LLM experience who wants to work on vertical AI. You'll need fine-tuning skills (Hugging Face ecosystem) and good writing ability for documentation. HVAC knowledge is a bonus but not required—you'll learn.
+Someone who's actually fine-tuned models before. You should know the Hugging Face ecosystem, understand LoRA/QLoRA, and have opinions about dataset quality. HVAC knowledge isn't required but you need to care about getting technical details right, not just metrics.
 
 ## Goal
 
-Open-source the benchmark and fine-tuned models. Establish this as the standard evaluation for building-domain LLMs.
+Release the first open-source HVAC-specialized LLM that beats closed models on building diagnostics. Make it the standard for anyone building AI tools for facility management.

@@ -14,7 +14,7 @@ keywords:
 
 ## What We're Doing
 
-Data centres consume massive amounts of power but typically run as inflexible loads. This project explores how to coordinate IT workload scheduling with cooling operations so facilities can respond to grid conditions—enabling demand response, peak shaving, and carbon-aware computing.
+Data centres consume massive amounts of power but typically run as inflexible loads. This project explores how to coordinate IT workload scheduling with cooling operations so facilities can respond to grid conditions, enabling demand response, peak shaving, and carbon-aware computing.
 
 The challenge is joint optimization:
 - IT workload timing affects cooling demand
@@ -43,4 +43,4 @@ This is exploratory research building on our industrial cooling expertise. We're
 
 ## Who We're Looking For
 
-Someone interested in RL and energy systems. This is more research-stage than our other projects—good for someone who wants to explore and publish rather than deploy immediately.
+Someone interested in RL and energy systems. This is more research-stage than our other projects, good for someone who wants to explore and publish rather than deploy immediately.

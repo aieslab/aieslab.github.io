@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Launching the AIES Lab
-date: 2024-11-01 10:00:00
+date: 2025-11-01 10:00:00
 description: Introducing the Autonomous and Intelligent Energy Systems Lab
 featured: true
 toc:

@@ -14,32 +14,33 @@ keywords:
 
 ## What We're Doing
 
-Our AI agents need to reason about buildings—understanding that a VAV box is fed by an AHU, which is served by a chiller, and that a fault in one affects the others. Current tagging (Haystack) is too flat for this. We're exploring richer ontologies.
+Our AI agents need to understand building systems. When a room is too hot, the agent should know that the VAV box connects to an AHU, which connects to a chiller, and that the problem could be anywhere in that chain. Right now we use Haystack tags, which are basically flat key-value pairs. It works for organizing data but not for reasoning.
 
-Areas of interest:
-- Brick Schema for semantic relationships
-- Graph databases for queryable knowledge
-- Ontology patterns that support LLM reasoning
-- Extensions for Southeast Asian building practices
+We're testing Brick Schema and graph databases to see if richer structure actually helps:
+- Semantic relationships between equipment
+- System hierarchies and dependencies
+- Control sequences and operating modes
+- Extensions for Southeast Asian building types (different HVAC approaches)
 
-## Current State
+## Current Reality
 
-Using Project Haystack for basic tagging. Works for data organization but doesn't support the kind of reasoning we need for autonomous agents.
+Using Haystack tags at most sites. It's simple and works for data organization, but when the agent needs to reason about "what affects what," we're stuck writing custom logic for every building.
 
-## What You'd Work On
+## What You'd Actually Do
 
-- Evaluate Brick, Haystack, RealEstateCore for LLM compatibility
-- Design schema extensions for our use cases
-- Implement graph database architectures
-- Build query interfaces for agent integration
-- Contribute to open-source ontology standards
+- Compare Brick Schema, Haystack, and RealEstateCore on real buildings
+- Build graph database schemas that agents can actually query
+- Test if structured ontologies help LLM reasoning or just add complexity
+- Design schema extensions for our specific use cases
+- Contribute back to open standards if we find something useful
 
-## Open Questions
+## Real Questions
 
-- Which ontology patterns best support LLM reasoning about building systems?
-- How do we represent temporal relationships (schedules, sequences)?
-- What query patterns enable efficient multi-hop inference?
+- Does semantic structure actually improve agent reasoning, or is it just overhead?
+- How do we represent temporal patterns (schedules, sequences, seasons)?
+- Can we build ontologies that work across different building types without becoming unusable?
+- What happens when the real building doesn't match the model?
 
-## Who We're Looking For
+## Who We Need
 
-Someone with semantic web or knowledge engineering background. Experience with RDF, OWL, SPARQL, or graph databases. Interest in how structure affects AI reasoning.
+Someone with knowledge graphs or semantic web experience. RDF, OWL, SPARQL, or graph databases (Neo4j). You should care about whether formalism helps or just makes things complicated.

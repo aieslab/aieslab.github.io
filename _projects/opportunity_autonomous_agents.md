@@ -14,40 +14,45 @@ keywords:
 
 ## What We're Doing
 
-We have AI assistants deployed at several buildings—they answer questions, pull data, run diagnostics. But they're still assistants. We want autonomous agents that can operate buildings: monitoring overnight, catching anomalies, adjusting setpoints, scheduling maintenance, and escalating only when necessary.
+We have chatbots running at a few buildings. They pull data, answer questions, run simple diagnostics. But they need a human for everything. We're trying to make them autonomous enough to handle overnight operations, catch issues before they become problems, and only escalate when actually necessary.
 
-The agent architecture includes:
-- Building ontology (Haystack) for semantic understanding
-- Real-time BMS data access
-- Document retrieval (manuals, drawings, logs)
-- Code execution for analysis
-- Control actions (setpoint changes, equipment commands)
+Right now the systems can:
+- Query BMS data and sensor trends
+- Look up equipment specs from manuals
+- Run diagnostic checks
+- Answer questions about building operation
 
-## Current State
+What we want:
+- Actually monitoring 24/7 without supervision
+- Catching anomalies and investigating root causes
+- Making safe control adjustments within bounds
+- Scheduling preventive maintenance based on conditions
+- Escalating to humans only when needed
 
-Deployed at commercial offices, hotels, and multi-property retail portfolios in Southeast Asia. Current capability: conversational interface, data analysis, basic diagnostics. Target: autonomous 24/7 operation with human oversight.
+## Current Deployments
 
-## What You'd Work On
+We have systems at:
+- ITE College Singapore (NVIDIA DGX infrastructure)
+- Central Pattana retail properties (multi-site)
+- JW Marriott Bangkok (441 rooms)
 
-- Design agent architectures for reliable autonomous operation
-- Build safety constraints and escalation protocols
-- Develop evaluation frameworks for agent reliability
-- Implement and test on live buildings
-- Document failure modes and edge cases
+They're assistants right now. We want them autonomous.
 
-## Open Questions
+## What You'd Actually Do
 
-- How do we ensure safe autonomous control in critical building systems?
-- What reasoning patterns enable reliable multi-step facility operations?
-- How does the agent know when it's uncertain and should ask for help?
-- What audit trails do we need for compliance and debugging?
+- Design agent architectures that don't break things when they're wrong
+- Build safety constraints that make sense for real buildings
+- Figure out when the agent should be confident vs ask for help
+- Test on live buildings with real consequences
+- Document what goes wrong so we learn from it
 
-## Who We're Looking For
+## Real Questions We're Dealing With
 
-Someone interested in autonomous systems and safety. Experience with LLM agents (LangChain, LangGraph) is useful. You should care about reliability—these systems run real buildings with real occupants.
+- How do you make an agent that knows what it doesn't know?
+- What level of autonomy is safe before you need human approval?
+- How do you audit agent decisions when something goes wrong?
+- What happens when the BMS data is unreliable or missing?
 
-## Sites
+## Who We Need
 
-- Commercial offices in Singapore
-- Large hotels in Southeast Asia
-- Multi-property retail portfolios
+Someone who cares about reliability over demos. Experience with LLM agents (LangChain, LangGraph, ReAct patterns) helps. You should be comfortable working on systems where failure means real people get too hot or too cold, not just bad metrics.

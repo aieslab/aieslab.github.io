@@ -15,7 +15,7 @@ keywords:
 
 ## What We're Doing
 
-Large retail buildings (10,000+ m²) use multiple AHUs cooling the same open floor area. The units are distributed but their effects overlap—one AHU's output affects temperature readings that other AHUs respond to. Current control treats each unit independently with identical setpoints, which leads to fighting, uneven temperatures, and wasted energy.
+Large retail buildings (10,000+ m²) use multiple AHUs cooling the same open floor area. The units are distributed but their effects overlap. One AHU's output affects temperature readings that other AHUs respond to. Current control treats each unit independently with identical setpoints, which leads to fighting, uneven temperatures, and wasted energy.
 
 We want coordinated control that:
 - Adjusts VSD speeds across multiple AHUs based on zone conditions
@@ -38,7 +38,7 @@ Rule-based control running at large retail sites. All AHUs get the same setpoint
 ## Open Questions
 
 - How do we model the coupling between AHUs serving overlapping zones?
-- What coordination strategy works best—centralized MPC, distributed consensus, or learning?
+- What coordination strategy works best: centralized MPC, distributed consensus, or learning?
 - How do we handle the different disturbances (solar gain varies by location, occupancy moves)?
 - Can we learn the building's thermal response online without extensive commissioning?
 

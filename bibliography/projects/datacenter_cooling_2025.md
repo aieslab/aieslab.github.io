@@ -2,7 +2,7 @@
 layout: distill
 title: "Data Centre Cooling Optimization"
 description: RL-based control for data centre thermal management
-date: 2024-01-01
+date: 2025-01-01
 ---
 
 ## Overview

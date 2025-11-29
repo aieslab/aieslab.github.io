@@ -2,7 +2,7 @@
 layout: distill
 title: "HVAC Model Predictive Control"
 description: Advanced MPC for building HVAC systems with physics-informed constraints
-date: 2024-01-01
+date: 2025-01-01
 ---
 
 ## Overview
