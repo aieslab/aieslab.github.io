@@ -107,5 +107,5 @@ social: false
 
 ## Contact
 
-**Email**: pamekitti.puktalae.25@ucl.ac.uk
+**Email**: pamekitti.p@gmail.com
 **GitHub**: [github.com/aieslab](https://github.com/aieslab)

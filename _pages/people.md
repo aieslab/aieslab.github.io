@@ -16,7 +16,7 @@ nav_order: 2
         <h6 class="card-subtitle mb-3 text-muted">Founding Researcher</h6>
         <h6 class="card-subtitle mb-3 text-muted">Member of Technical Staff, AltoTech</h6>
         <p class="mb-0 fs-5">
-          <a href="mailto:pamekitti.puktalae.25@ucl.ac.uk" class="me-2"><i class="fas fa-envelope"></i></a>
+          <a href="mailto:pamekitti.p@gmail.com" class="me-2"><i class="fas fa-envelope"></i></a>
           <a href="https://linkedin.com/in/pamekitti"><i class="fab fa-linkedin"></i></a>
         </p>
       </div>

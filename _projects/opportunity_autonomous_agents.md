@@ -25,7 +25,7 @@ The agent architecture includes:
 
 ## Current State
 
-Deployed at ITE Singapore (NVIDIA stack), JW Marriott Bangkok, and Central Pattana multi-property portfolio. Current capability: conversational interface, data analysis, basic diagnostics. Target: autonomous 24/7 operation with human oversight.
+Deployed at commercial offices, hotels, and multi-property retail portfolios in Southeast Asia. Current capability: conversational interface, data analysis, basic diagnostics. Target: autonomous 24/7 operation with human oversight.
 
 ## What You'd Work On
 
@@ -48,6 +48,6 @@ Someone interested in autonomous systems and safety. Experience with LLM agents 
 
 ## Sites
 
-- ITE Singapore (commercial office, NVIDIA infrastructure)
-- JW Marriott Bangkok (441-room hotel)
-- Central Pattana (multi-property retail portfolio)
+- Commercial offices in Singapore
+- Large hotels in Southeast Asia
+- Multi-property retail portfolios

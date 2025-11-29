@@ -40,10 +40,10 @@ Email us with:
 Curiosity, hands-on mindset, Python skills, and interest in control/ML/energy systems.
 
 <div class="mt-4">
-  <a href="mailto:pamekitti.puktalae.25@ucl.ac.uk?subject=Research Opportunity Application" class="btn btn-primary btn-lg">
+  <a href="mailto:pamekitti.p@gmail.com?subject=Research Opportunity Application" class="btn btn-primary btn-lg">
     <i class="fas fa-envelope"></i> Apply
   </a>
-  <p class="mt-2 mb-0"><small>Email: <a href="mailto:pamekitti.puktalae.25@ucl.ac.uk">pamekitti.puktalae.25@ucl.ac.uk</a></small></p>
+  <p class="mt-2 mb-0"><small>Email: <a href="mailto:pamekitti.p@gmail.com">pamekitti.p@gmail.com</a></small></p>
 </div>
 
 <p class="mt-3 text-muted">
@@ -54,7 +54,7 @@ Curiosity, hands-on mindset, Python skills, and interest in control/ML/energy sy
 
 ## Current Research Opportunities {#research-topics}
 
-We're looking for researchers and students to work on real building systems. These aren't simulations—you'll have access to live deployments, real operational data, and a path to see your work running in production.
+We're looking for researchers and students to work on real building systems.
 
 <style>
 .card-link {
@@ -76,9 +76,28 @@ We're looking for researchers and students to work on real building systems. The
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
+
+.card-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-keywords .keyword-tag {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  background-color: var(--global-theme-color);
+  color: white;
+  border-radius: 0.2rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
 </style>
 
-<div class="row row-cols-1 row-cols-md-2 g-5 mb-5 mt-5 pt-3 pb-3">
+<div class="row row-cols-1 row-cols-md-2 g-4">
   <!-- PMV-Based Air-Side Optimization -->
   <div class="col">
     <a href="{{ '/projects/opportunity_pmv_vav/' | relative_url }}" class="card-link">
@@ -97,18 +116,18 @@ We're looking for researchers and students to work on real building systems. The
     </a>
   </div>
 
-  <!-- Solar Pre-Cooling -->
+  <!-- Multi-AHU Coordination -->
   <div class="col">
-    <a href="{{ '/projects/opportunity_solar_precooling/' | relative_url }}" class="card-link">
+    <a href="{{ '/projects/opportunity_multi_ahu/' | relative_url }}" class="card-link">
       <div class="card h-100 hoverable">
         <div class="card-body">
-          <h5 class="card-title">Solar Pre-Cooling with Closed-Loop Control for Retail Buildings</h5>
-          <p class="card-text">Make buildings run on solar power by predicting when to pre-cool. You'll develop ML models that forecast solar generation and optimize cooling schedules at live retail sites with 500+ kW rooftop arrays.</p>
+          <h5 class="card-title">Multi-AHU Coordination and Adaptive Control for Large Retail Spaces</h5>
+          <p class="card-text">Coordinate multiple AHUs cooling the same retail floor instead of running them independently. You'll develop adaptive control that adjusts each unit's speed and setpoints based on real conditions—maintaining uniform comfort while cutting energy waste.</p>
           <div class="card-keywords">
-            <span class="keyword-tag">Solar PV</span>
-            <span class="keyword-tag">Pre-Cooling</span>
-            <span class="keyword-tag">Thermal Storage</span>
-            <span class="keyword-tag">Predictive Control</span>
+            <span class="keyword-tag">Multi-AHU</span>
+            <span class="keyword-tag">VSD</span>
+            <span class="keyword-tag">Adaptive Control</span>
+            <span class="keyword-tag">Retail</span>
           </div>
         </div>
       </div>
@@ -150,7 +169,14 @@ We're looking for researchers and students to work on real building systems. The
       </div>
     </a>
   </div>
+</div>
 
+<div class="mt-5 mb-4">
+  <h3 class="text-muted" style="font-size: 1.1rem; font-weight: 500;">Exploratory Research Areas</h3>
+  <p class="text-muted mb-0" style="font-size: 0.9rem;">Early-stage projects where we're looking for collaborators to explore new directions.</p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
   <!-- Automated Building Digitization -->
   <div class="col">
     <a href="{{ '/projects/opportunity_building_digitization/' | relative_url }}" class="card-link">
@@ -181,24 +207,6 @@ We're looking for researchers and students to work on real building systems. The
             <span class="keyword-tag">Ontology</span>
             <span class="keyword-tag">Graph Database</span>
             <span class="keyword-tag">Semantic Reasoning</span>
-          </div>
-        </div>
-      </div>
-    </a>
-  </div>
-
-  <!-- Physics-Informed MPC -->
-  <div class="col">
-    <a href="{{ '/projects/opportunity_mpc_chiller/' | relative_url }}" class="card-link">
-      <div class="card h-100 hoverable">
-        <div class="card-body">
-          <h5 class="card-title">Physics-Informed MPC for Chiller Plants</h5>
-          <p class="card-text">Optimize industrial chiller plants using model predictive control. You'll combine physics models with ML forecasting to make real-time decisions on staging, setpoints, and load distribution at operating facilities.</p>
-          <div class="card-keywords">
-            <span class="keyword-tag">MPC</span>
-            <span class="keyword-tag">Chiller Plant</span>
-            <span class="keyword-tag">Physics-Informed</span>
-            <span class="keyword-tag">Load Forecasting</span>
           </div>
         </div>
       </div>
